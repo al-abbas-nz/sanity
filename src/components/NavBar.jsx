@@ -15,6 +15,22 @@ export default function NavBar() {
           >
             Al
           </NavLink>
+          <div className='py-3 px-3 my-6'>
+          <SocialIcon
+            url='https://www.linkedin.com/in/al-abbas-14401b1b8/'
+            className='mr-4'
+            target='_blank'
+            fgColor='#fff'
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
+            url='https://github.com/al-abbas-nz'
+            className='mr-4'
+            target='_blank'
+            fgColor='#fff'
+            style={{ height: 35, width: 35 }}
+          />
+        </div>
           <NavLink
             to='/post'
             activeClassName='text-red-100 bg-red-700'
@@ -36,23 +52,9 @@ export default function NavBar() {
           >
             About Me
           </NavLink>
+          
         </nav>
-        <div className='inline-flex py-3 px-3 my-6'>
-          <SocialIcon
-            url='https://www.linkedin.com/in/al-abbas-14401b1b8/'
-            className='mr-4'
-            target='_blank'
-            fgColor='#fff'
-            style={{ height: 35, width: 35 }}
-          />
-          <SocialIcon
-            url='https://github.com/al-abbas-nz'
-            className='mr-4'
-            target='_blank'
-            fgColor='#fff'
-            style={{ height: 35, width: 35 }}
-          />
-        </div>
+        
       </div>
     </header>
   );

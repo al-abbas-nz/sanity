@@ -16,7 +16,7 @@ export default function Project() {
     }`)
     .then((data) => setProjectData(data))
     .catch(console.error)
-  },[])
+  }, [])
 
   return (
     <main className='bg-green-100 min-h-screen p-12'>
